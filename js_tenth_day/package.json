@@ -1,0 +1,14 @@
+{
+  "name": "node_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch ./sass/main.scss -o css"
+  },
+  "author": "Joany Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
