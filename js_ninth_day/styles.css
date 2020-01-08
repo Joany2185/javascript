@@ -1,0 +1,156 @@
+html,
+
+
+/*-------body--------*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+   
+}
+
+/*----head-------*/
+.header {
+    background-color: #03BAE4;
+    display: flex;
+    color: white;
+   
+    /* justify-content: space-between;   */
+    
+}
+.header_description{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:15px;
+    
+} 
+.title{
+    font-size: larger;
+}
+.subtitle{
+    font-size:smaller;
+}
+.contact {
+    font-size:smaller;
+}
+/*body_sidebar*/
+
+.main_content {
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width:100%;    
+
+}
+
+.side_bar{
+    background-color: #f2f2f2;
+    width:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    
+}
+
+/*body_sidebar - courses list */
+.courses_list {
+    background-color: #f2f2f2;
+    text-align: center;
+    margin:10px;
+    font-size:smaller;
+
+}
+li {
+    
+    display:flex;
+    justify-content: space-evenly;
+    height:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 40px;
+
+}
+.col1{
+    
+    width:220px;
+    
+}
+.col2{
+    width: 220px;
+   
+}
+.col3{
+    width: 220px;
+    
+}
+/* .header_description {
+
+} */
+
+/*body_sidebar - courses list - button */
+.buttondesign {
+    background-color: #F37786;
+    width: 220px;   
+    border-radius: 15px;
+   
+}
+
+
+
+
+/*body_footer - courses list - button */
+.footer {
+    background-color: #F37786;
+    color: whitesmoke;
+    text-align: center;
+    height:50px;
+    display:flex;
+    justify-content: space-between; 
+}
+
+.right{
+   
+    display:flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.left{
+    display:flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+
+}
+
+
+img {
+    width: 200px;
+    margin: 15px;
+
+}
+.grey{
+    background-color: lightgrey;
+}
